@@ -1,0 +1,95 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/adlist.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/adlist.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ae.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ae.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ae_epoll.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ae_epoll.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ae_evport.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ae_evport.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ae_kqueue.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ae_kqueue.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ae_select.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ae_select.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/anet.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/anet.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/aof.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/aof.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/bio.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/bio.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/bitops.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/bitops.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/blocked.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/blocked.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/childinfo.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/childinfo.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/cluster.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/cluster.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/config.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/config.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/crc16.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/crc16.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/crc64.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/crc64.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/db.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/db.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/debug.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/debug.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/defrag.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/defrag.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/dict.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/dict.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/endianconv.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/endianconv.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/evict.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/evict.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/expire.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/expire.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/geo.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/geo.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/geohash.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/geohash.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/geohash_helper.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/geohash_helper.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/hyperloglog.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/hyperloglog.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/intset.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/intset.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/latency.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/latency.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/lazyfree.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/lazyfree.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/lzf_c.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/lzf_c.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/lzf_d.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/lzf_d.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/memtest.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/memtest.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/module.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/module.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/modules/helloblock.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/modules/helloblock.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/modules/hellotype.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/modules/hellotype.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/modules/helloworld.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/modules/helloworld.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/modules/testmodule.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/modules/testmodule.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/multi.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/multi.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/networking.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/networking.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/notify.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/notify.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/object.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/object.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/pqsort.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/pqsort.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/pubsub.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/pubsub.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/quicklist.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/quicklist.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/rand.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/rand.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/rax.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/rax.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/rdb.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/rdb.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/redis-benchmark.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/redis-benchmark.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/redis-check-aof.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/redis-check-aof.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/redis-check-rdb.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/redis-check-rdb.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/redis-cli.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/redis-cli.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/release.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/release.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/replication.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/replication.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/rio.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/rio.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/scripting.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/scripting.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/sds.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/sds.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/sentinel.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/sentinel.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/server.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/server.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/setproctitle.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/setproctitle.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/sha1.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/sha1.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/siphash.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/siphash.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/slowlog.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/slowlog.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/sort.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/sort.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/sparkline.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/sparkline.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/syncio.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/syncio.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/t_hash.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/t_hash.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/t_list.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/t_list.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/t_set.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/t_set.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/t_string.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/t_string.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/t_zset.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/t_zset.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/util.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/util.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/ziplist.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/ziplist.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/zipmap.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/zipmap.c.o"
+  "/Users/yunxiaofeng/github/redis-4.0.11/src/zmalloc.c" "/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir/zmalloc.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../."
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

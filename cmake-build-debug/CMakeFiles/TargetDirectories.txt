@@ -1,0 +1,3 @@
+/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/CMakeFiles/src.dir

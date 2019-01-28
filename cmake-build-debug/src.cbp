@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yunxiaofeng/github/redis-4.0.11/src/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/yunxiaofeng/github/redis-4.0.11/src/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yunxiaofeng/github/redis-4.0.11/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/adlist.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/adlist.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae_epoll.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae_evport.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae_kqueue.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ae_select.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/anet.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/anet.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/aof.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/asciilogo.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/atomicvar.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/bio.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/bio.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/bitops.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/blocked.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/childinfo.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/cluster.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/cluster.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/config.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/config.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/crc16.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/crc64.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/crc64.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/db.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/debug.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/debugmacro.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/defrag.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/dict.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/dict.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/endianconv.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/endianconv.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/evict.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/expire.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/fmacros.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geo.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geo.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geohash.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geohash.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geohash_helper.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/geohash_helper.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/help.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/hyperloglog.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/intset.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/intset.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/latency.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/latency.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/lazyfree.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/lzf.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/lzfP.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/lzf_c.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/lzf_d.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/memtest.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/module.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/modules/helloblock.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/modules/hellotype.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/modules/helloworld.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/modules/testmodule.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/multi.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/networking.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/notify.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/object.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/pqsort.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/pqsort.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/pubsub.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/quicklist.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/quicklist.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rand.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rand.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rax.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rax.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rax_malloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rdb.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rdb.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redis-benchmark.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redis-check-aof.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redis-check-rdb.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redis-cli.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redisassert.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/redismodule.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/release.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/replication.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rio.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/rio.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/scripting.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sds.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sds.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sdsalloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sentinel.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/server.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/server.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/setproctitle.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sha1.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sha1.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/siphash.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/slowlog.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/slowlog.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/solarisfixes.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sort.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sparkline.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/sparkline.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/syncio.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/t_hash.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/t_list.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/t_set.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/t_string.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/t_zset.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/testhelp.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/util.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/util.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/version.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ziplist.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/ziplist.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/zipmap.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/zipmap.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/zmalloc.c">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/zmalloc.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/yunxiaofeng/github/redis-4.0.11/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
